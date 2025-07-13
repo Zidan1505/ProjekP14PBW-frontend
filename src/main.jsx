@@ -1,4 +1,6 @@
 // src/main.jsx
+console.log("Nilai VITE_API_URL saat build:", import.meta.env.VITE_API_URL);
+
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter as Router } from "react-router-dom";
