@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { useNavigate } from "react-router-dom"
-import { usePublications } from "../hooks/usePublications"
+import { usePublications } from "../hooks/UsePublications"
 import editIcon from "../assets/edit.png"
 import removeIcon from "../assets/remove.png"
 import descriptionIcon from "../assets/description.png"

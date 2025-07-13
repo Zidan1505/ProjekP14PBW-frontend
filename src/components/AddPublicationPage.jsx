@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { usePublications } from '../hooks/usePublications'; // Pastikan path ini benar
+import { usePublications } from '../hooks/UsePublications'; // Pastikan path ini benar
 
 export default function AddPublicationPage() {
     // State untuk setiap input form
